@@ -1,8 +1,8 @@
 %define		_modname	pop3
 %define		_status		alpha
 
-Summary:	%{_modname} Client Library
-Summary(pl):	Biblioteka klienta %{_modname} 
+Summary:	POP3 Client Library
+Summary(pl):	Biblioteka klienta POP3
 Name:		php-pecl-%{_modname}
 Version:	0.1
 Release:	1
@@ -22,10 +22,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		extensionsdir	%{_libdir}/php
 
 %description
-The POP3 extension makes it possible for a PHP
-script to connect to and interact with a POP3 mail server.
-Based on libspopc (http://brouits.free.fr/libspopc/), it is
-built for performance and ease of use.
+The POP3 extension makes it possible for a PHP script to connect to
+and interact with a POP3 mail server. Based on libspopc
+(http://brouits.free.fr/libspopc/), it is built for performance and
+ease of use.
 
 This extension has in PEAR status: %{_status}.
 
