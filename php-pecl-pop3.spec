@@ -27,7 +27,7 @@ and interact with a POP3 mail server. Based on libspopc
 (http://brouits.free.fr/libspopc/), it is built for performance and
 ease of use.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 Rozszerzenie POP3 umo¿liwia skryptowi PHP pod³±czenie i wspó³pracê z
@@ -35,7 +35,7 @@ serwerem POP3. Biblioteka bazuj±ca na libspopc
 (http://brouits.free.fr/libspopc/), stworzona zosta³a z my¶l± o
 wydajno¶ci i ³atwo¶ci u¿ycia.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
