@@ -11,6 +11,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	c0f9946f2d6adefbf3f5908444387b61
 URL:		http://pecl.php.net/package/POP3/
+BuildRequires:	libspopc-devel
 BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
