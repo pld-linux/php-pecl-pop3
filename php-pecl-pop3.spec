@@ -1,19 +1,19 @@
 %define		_modname	pop3
-%define		_status		alpha
+%define		_status		stable
 
 Summary:	POP3 Client Library
 Summary(pl):	Biblioteka klienta POP3
 Name:		php-pecl-%{_modname}
-Version:	0.1
+Version:	1.0.2
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	c0f9946f2d6adefbf3f5908444387b61
+# Source0-md5:	cdbe4f41aa37bcf45e651d5568f3a8d2
 URL:		http://pecl.php.net/package/POP3/
 BuildRequires:	libspopc-devel
 BuildRequires:	libtool
-BuildRequires:	php-devel
+BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
