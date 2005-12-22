@@ -1,0 +1,12 @@
+--- php-pecl-pop3-1.0.2/pop3-1.0.2/pop3.c~	2005-07-25 23:47:03.000000000 +0200
++++ php-pecl-pop3-1.0.2/pop3-1.0.2/pop3.c	2005-12-23 00:35:40.654796552 +0100
+@@ -172,8 +172,7 @@
+ 
+ 	intern = emalloc(sizeof(pop3_object));
+ 	intern->zo.ce = class_type;
+-	intern->zo.in_get = 0;
+-	intern->zo.in_set = 0;
++	intern->zo.guards = NULL;
+ 	intern->zo.properties = NULL;
+ 	intern->ptr = NULL;
+ 
