@@ -15,7 +15,7 @@ Patch0:		%{name}-php51.patch
 URL:		http://pecl.php.net/package/POP3/
 BuildRequires:	libspopc-devel
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.254
+BuildRequires:	rpmbuild(macros) >= 1.322
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
 Obsoletes:	php-pear-%{_modname}
