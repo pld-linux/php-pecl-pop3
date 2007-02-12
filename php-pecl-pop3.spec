@@ -1,7 +1,7 @@
 %define		_modname	pop3
 %define		_status		stable
 Summary:	POP3 Client Library
-Summary(pl):	Biblioteka klienta POP3
+Summary(pl.UTF-8):   Biblioteka klienta POP3
 Name:		php-pecl-%{_modname}
 Version:	1.0.2
 Release:	7
@@ -27,11 +27,11 @@ ease of use.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-Rozszerzenie POP3 umoøliwia skryptowi PHP pod≥±czenie i wspÛ≥pracÍ z
-serwerem POP3. Biblioteka bazuj±ca na libspopc
-(http://brouits.free.fr/libspopc/), stworzona zosta≥a z my∂l± o
-wydajno∂ci i ≥atwo∂ci uøycia.
+%description -l pl.UTF-8
+Rozszerzenie POP3 umo≈ºliwia skryptowi PHP pod≈ÇƒÖczenie i wsp√≥≈Çpracƒô z
+serwerem POP3. Biblioteka bazujƒÖca na libspopc
+(http://brouits.free.fr/libspopc/), stworzona zosta≈Ça z my≈õlƒÖ o
+wydajno≈õci i ≈Çatwo≈õci u≈ºycia.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
