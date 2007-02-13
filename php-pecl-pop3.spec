@@ -1,7 +1,7 @@
 %define		_modname	pop3
 %define		_status		stable
 Summary:	POP3 Client Library
-Summary(pl.UTF-8):   Biblioteka klienta POP3
+Summary(pl.UTF-8):	Biblioteka klienta POP3
 Name:		php-pecl-%{_modname}
 Version:	1.0.2
 Release:	7
