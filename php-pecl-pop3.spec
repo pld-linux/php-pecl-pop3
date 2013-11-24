@@ -5,7 +5,7 @@ Summary:	POP3 Client Library
 Summary(pl.UTF-8):	Biblioteka klienta POP3
 Name:		%{php_name}-pecl-%{modname}
 Version:	1.0.2
-Release:	8
+Release:	9
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
